@@ -98,27 +98,28 @@ const AbstractSubmission = () => {
   };
 
 const presentationOptions = [
-  "Future of AI & Security",
-  "Cybersecurity",
-  "Zero-Trust Focused",
-  "Aerospace",
-  "Threat Detection & Response",
-  "Data Protection",
-  "AI Forensics",
-  "Defense Technology",
-  "Risk Management",
-  "Intelligence & Innovation",
-  "AI Encryption",
-  "Digital Forensics",
-  "API Security",
-  "Future & Innovation",
-  "AI Monitoring",
-  "Network Detection",
-  "Cognitive Defense",
-  "Zero-Trust Cloud",
-  "Cyber Resilience",
-  "AI Radar",
+  "AI in Drug Formulation",
+  "R&D Innovation",
+  "Healthcare",
+  "Early Discovery & Design",
+  "Core Science & Technology",
+  "Toxicology",
+  "Molecular Design",
+  "Pharmacoeconomics",
+  "BioPharma Strategy",
+  "Drug Development",
+  "AI in Clinical Research",
+  "Pharmacodynamics",
+  "Clinical Trials",
+  "Polypharmacology",
+  "Pharma Analytics",
+  "Proteomics & Phenomics",
+  "Nanotechnology",
+  "Gene & Cell Therapy",
+  "Antibiotic Discovery",
+  "Oncology & Rare Diseases",
 ];
+
 
 
 

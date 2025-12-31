@@ -45,12 +45,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/executive-panel-members/" element={<ExecutiveMembers />} />
-        <Route path= "/zerotrustai-orators"  element={<Orators />} />
-        <Route path="/about-zerotrustai" element={<AboutOralMed />} />
-        <Route path="/zerotrustai-event-schedule"element={<EventSchedule />} />
+        <Route path= "/aidrug-orators"   element={<Orators />} />
+        <Route path="/about-aidrug" element={<AboutOralMed />} />
+        <Route path="/aidrug-event-schedule"element={<EventSchedule />} />
         <Route path="/venue" element={<Venue/>}/>
         <Route path="/contact" element={<ContactForm />} />
-        <Route path="/zerotrustai-conference-tracks/"element={<RotatingLogos />} />
+        <Route path="/aidrug-conference-tracks/"element={<RotatingLogos />} />
         <Route path="/abstract-submission" element={<AbstractSubmission />} />
         {/* <Route path="/brochure-download" element={<BrochureDownload />} /> */}
         <Route path="/faq" element={<FAQPage />} />

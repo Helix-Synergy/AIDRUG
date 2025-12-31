@@ -6,11 +6,11 @@ import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   const nav_links = [
-    { name: "About", link:"/about-zerotrustai"},
+    { name: "About", link:"/about-aidrug" },
     { name: "Executive Panel", link: "/executive-panel-members/" },
-    { name: "Tracks", link: "/zerotrustai-conference-tracks/" },
-    { name: "Orators", link:"/zerotrustai-orators" },
-    { name: "Schedule", link: "/zerotrustai-event-schedule"},
+    { name: "Tracks", link: "/aidrug-conference-tracks/"},
+    { name: "Orators", link: "/aidrug-orators"  },
+    { name: "Schedule", link: "/aidrug-event-schedule"},
     { name: "Venue", link: "/venue" },
     { name: "Event Partners", link: "/event_partners" },
     { name: "Contact", link: "/Contact" },
@@ -31,7 +31,7 @@ const Footer = () => {
           />
           <br />
         <p style={{}}>
-   “Securing the Future with Zero-Trust Architecture and AI-Driven Defense”
+“Transforming Drug Discovery with Artificial Intelligence and Secure Data Innovation”
         </p>
        
         </div>

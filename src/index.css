@@ -4,15 +4,15 @@
 
 :root {
   /* --tw-shadow-color: #7ab326; replaced with Purple */
-  --tw-shadow-color: #546DC5;
---one: #546DC5;       /* Buttons, headings */
+  --tw-shadow-color: #c037ad;
+--one: #c037ad;       /* Buttons, headings */
   --primary: #1F1F1F;    /* Background dark */
- --accent: #546DC5;   /* Links, hover states */
+ --accent: #c037ad;   /* Links, hover states */
 }
 
 /* Page Backgrounds */
 .home {
-  background-image: url("https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/blogs/zero-trusts-next-phase-agility-identity-ai-risks-image_medium-10-p-3936.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJJ6lrmgESiwk8r2i38r5t5vC45ggYVLwCpA&s");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
   display: flex;
   overflow: hidden;
   gap: var(--gap);
-  border: 2px dashed#546DC5;
+  border: 2px dashed#c037ad;
 }
 
 .marquee__content {
@@ -49,7 +49,7 @@
 .marquee__content > * {
   flex: 0 0 auto;
   color: #ffffff;
-  background:#546DC5;
+  background:#c037ad;
   margin: 2px;
   padding: 1rem 2rem;
   border-radius: 0.25rem;
@@ -121,7 +121,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #546DC5;
+  background-color: #c037ad;
   transition: transform 0.25s ease-out;
 }
 

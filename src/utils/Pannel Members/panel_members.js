@@ -1,41 +1,41 @@
 
 // images
-import Parisa from "../../assets/Pannel Members/Parisa.png";
-import Joe from "../../assets/Pannel Members/Joe.png";
-import Praveen from "../../assets/Pannel Members/Praveen.png";
-import Alex from "../../assets/Pannel Members/Alex.png";
+import Racio from "../../assets/Pannel Members/Racio.png";
+import Fabin from "../../assets/Pannel Members/Fabin.png";
+import Bo from "../../assets/Pannel Members/Bo.png";
+import Lee  from "../../assets/Pannel Members/Lee.png";
 
 export const panel_members_about = [
   {
     id: "Paul",
-    image: Parisa,
-    name: "Parisa Grayeli",
-    from: "United States",
-    about: "The George Washington University (GWU) ",
+    image: Racio,
+    name: "Racio Mercado",
+    from: "Sweden",
+    about: "Chalmers University of Technology",
     // link: "/executive-panel-members/velimir",
   },
   {
     id: "Koji Nomura ",
-    image: Joe,
-    name: "Joe Carroll" ,
-    from: "United States",
-    about: "University of Houston ",
+    image: Fabin,
+    name: "Fabian J. Theis" ,
+    from: "Germany",
+    about: "Technical University of Munich(TUM)",
     // link: "/executive-panel-members/Raenu",
   },
   {
     id: "Rd",
-    image:Praveen,
-    name: "Praveen Kolliakal",
-    from: "United States",
-    about: "Amrita University",
+    image:Bo,
+    name: " Bo Wang",
+    from: "Canada",
+    about: "University of Toronto",
     // link: "/executive-panel-members/Rd",
   },
   {
     id: "Paulo",
-    image: Alex,
-    name: "Alexandru Suditu",
+    image:Lee,
+    name: " Lee Cronin",
     from: "United Kingdom",
-    about: "University of London",
+    about: "University of Glasgow",
     // link: "/executive-panel-members/Paulo",
   },
   // Second row

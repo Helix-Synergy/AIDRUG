@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const faqLinks = {
-  tracks: "/zerotrustai-conference-tracks/",
+  tracks: "/aidrug-conference-tracks/",
   abstractSubmission: "/abstract-submission",
-  schedule:"/zerotrustai-event-schedule",
+  schedule:"/aidrug-event-schedule",
   email: "mailto:hello@helixconferences.com",
 
 };

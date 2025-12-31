@@ -17,7 +17,7 @@ const Orators = () => {
   }}
 >
         <h1 className="text-slate-100 text-shadow text-one text-3xl sm:text-5xl md:text-6xl font-bold px-4">
-      ZEROTRUSTAI  - Orators
+     AIDRUG  - Orators
         </h1>
       </div>
 
@@ -27,7 +27,7 @@ const Orators = () => {
           Meet Our Distinguished Orators
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-International cybersecurity leaders and AI defense experts advancing next-generation zero-trust innovations at ZEROTRUSTAI-2026
+International AI researchers, pharmaceutical scientists, and biotech leaders advancing next-generation AI-driven drug discovery innovations at AIDRUG-2026.
         </p>
       </div>
 

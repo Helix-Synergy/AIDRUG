@@ -11,11 +11,11 @@ const Navbar = () => {
 
   const nav_links = [
     { name: "Home", link: "/" },
-    { name: "About", link: "/about-zerotrustai" },
+    { name: "About", link: "/about-aidrug" },
     { name: "Executive Panel", link: "/executive-panel-members/" },
-    { name: "Tracks", link: "/zerotrustai-conference-tracks/" },
-    { name: "Orators", link: "/zerotrustai-orators" },
-    { name: "Schedule", link: "/zerotrustai-event-schedule" },
+    { name: "Tracks", link: "/aidrug-conference-tracks/" },
+    { name: "Orators", link: "/aidrug-orators" },
+    { name: "Schedule", link: "/aidrug-event-schedule" },
     { name: "Venue", link: "/venue" },
     { name: "Event Partners", link: "/event_partners" },
     { name: "Contact", link: "/contact" },
@@ -224,7 +224,7 @@ const Navbar = () => {
                   ? "none"
                   : scrolled
                   ? "none"
-                  : "2px solid #546DC5",
+                  : "2px solid #c037ad",
               backgroundColor:
                 isOpen && window.innerWidth < 1024
                   ? "transparent"

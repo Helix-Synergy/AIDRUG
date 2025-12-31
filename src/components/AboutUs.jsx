@@ -18,7 +18,7 @@ const AboutUs = () => {
     <div className="flex justify-center">
         <img
           src={about_img}
-          alt="ZEROTRUSTAI"
+          alt="AIDRUG"
 className="h-[40vh] md:min-h-[50vh] max-h-[420px] w-auto md:max-w-[420px] mx-auto md:mx-16 rounded-xl object-contain"
 loading="lazy"
         />
@@ -30,21 +30,23 @@ loading="lazy"
       <div className="flex flex-col w-full md:w-2/3">
         <h1 className="text-xl md:text-3xl font-bold my-2">
           <span className="text-one">Advancing Global Leadership  </span>{" "}
-  in  Zero-Trust Security & AI Defence Forum, 
+ in AI-Driven Drug Discovery
         </h1>
         <p className="text-base my-2">
-        Welcome to the premier global platform for the  <Link to="https://helixconferences.com/buy-a-ticket"  className="
+       Welcome to the premier global platform for the <Link to="https://helixconferences.com/buy-a-ticket"  className="
              hover:text-accent hover:decoration-accent
-             transition-colors duration-300"> Zero-Trust Security & AI Defence Forum, </Link>  where leading experts and decision-makers converge to advance cybersecurity, zero-trust architectures, AI-powered threat detection, and next-generation defense strategies. The forum unites cybersecurity professionals, AI researchers, IT leaders, and policymakers to address critical challenges and shape the future of secure, resilient, and intelligent digital systems across industries.
-  
-          <Link
+             transition-colors duration-300"> AI Drug Discovery Conference.  </Link>   Our international summits convene scientists, pharmaceutical leaders, AI innovators, and policymakers who are shaping the next era of data-driven drug development.
+  The AI Drug Discovery Conference brings together pioneers in  <Link
             className="text-accent font-bold"
             target="_blank"
             to="https://helixconferences.com/blog.php"
-          ></Link>{" "}
+          >
+          artificial intelligence, machine learning, computational biology, cheminformatics, bioinformatics, and pharmaceutical R&D.   
+            
+            </Link>{" "} This global forum addresses the critical challenges and transformative opportunities redefining how medicines are discovered, developed, optimized, and delivered.
         </p>
-<p> “Empowering Cyber security and AI Defence Through Zero-Trust Innovation”</p>
-        <Link to="/about-zerotrustai">
+<p>“Transforming Global Healthcare Through AI-Driven Drug Discovery Innovation”</p>
+        <Link to="/about-aidrug" >
           <button className="flex bg-one text-white px-6 md:px-8 py-2 my-4 rounded-full text-sm md:text-base">
             Know More
           </button>

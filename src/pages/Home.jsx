@@ -15,25 +15,26 @@ const Home = () => {
           
           <div className="flex flex-row items-end gap-4">
             <h1 className="text-accent text-shadow-md font-bold text-5xl md:text-6xl">
-          Sep
+         Oct
             </h1>
 
             <div className="flex flex-col justify-center items-start leading-tight">
               <p className="text-base md:text-lg font-bold text-one">
-                24-25 | 2026
+                22-23 | 2026
               </p>
               <p className="text-base md:text-lg font-bold text-one">
-                Osaka | Japan 
+           Singapore
               </p>
             </div>
           </div>
 
           <h1 className="text-3xl md:text-6xl my-4 w-full md:w-[90vw] text-white">
-Zero-Trust Security & AI Defense Forum
+AI Drug Discovery Conclave
           </h1>
 
           <p className="text-2xl md:text-5xl text-accent">
-        ZEROTRUSTAI-2026
+        AIDRUG-2026
+    
    
           </p>
 

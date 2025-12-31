@@ -26,20 +26,23 @@ const data = {
     description: [
       <>
   
- The Zero-Trust Security & AI Defense Forum, organized by Helix Conferences, is a distinguished international platform dedicated to advancing zero-trust frameworks, AI-driven threat detection, and innovative cybersecurity solutions that safeguard organizational assets, enhance operational resilience, and strengthen <Link to="/zerotrustai-orators" className="
+The <Link to= "/aidrug-orators"  className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
- global digital security. </Link>The forum is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based discussions that accelerate the adoption of zero-trust principles, AI defense mechanisms, and next-generation cybersecurity strategies. Emphasis is placed on threat intelligence, identity and access management, cloud security, endpoint protection, AI-driven anomaly detection, and regulatory compliance.Through plenary sessions, keynote addresses, expert-led panels,<Link to="/about-zerotrustai"   className="
+World AI Drug Discovery Conference, </Link> organized by Helix Conferences, is a distinguished international forum dedicated to advancing cutting-edge AI technologies and computational strategies that accelerate drug discovery while improving efficiency, precision, and patient outcomes.
+The conference is designed to facilitate high-level scientific exchange, cross-sector collaboration, and evidence-based dialogue that drives the translation of AI innovations from research to real-world pharmaceutical applications. Key focus areas include AI-enabled target identification, virtual screening, molecular design, predictive toxicology, drug repurposing, clinical trial optimization, and regulatory-ready AI frameworks.
+Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and research-driven presentations, participants gain strategic insights into emerging AI platforms, evolving regulatory landscapes, data governance, ethical AI adoption, and scalable drug development models.
+<Link to="/about-aidrug" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-technical workshops, </Link> and research presentations, participants will gain strategic insights into emerging technologies, scalable security frameworks, and evolving global cybersecurity policies.
+ </Link>
  
       
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to= "/zerotrustai-conference-tracks/"
+          to= "/aidrug-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -54,53 +57,54 @@ technical workshops, </Link> and research presentations, participants will gain 
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global leaders and innovators in shaping the future of secure digital systems through zero-trust architectures and AI-powered defense excellence..",
+       "Join global leaders, innovators, and policymakers in shaping a faster, smarter, and more sustainable future for drug discovery and healthcare innovation..",
     },
   ],
-highlights: [
+highlights : [
   {
     title: "Distinguished Keynote Speakers",
     description:
-      "Engage with internationally recognized experts and thought leaders in zero-trust security, AI defense, and next-generation cybersecurity innovation.",
+      "Engage with internationally recognized leaders driving AI innovation across pharmaceutical research, biotechnology, and healthcare systems.",
   },
   {
     title: "Technical Workshops & Expert Sessions",
     description:
-      "Participate in in-depth sessions on zero-trust implementation, AI-driven threat detection, secure network architecture, digital forensics, and risk management.",
+      "Participate in in-depth sessions covering AI-based molecular modeling, predictive analytics, automation in drug discovery, and translational AI platforms.",
   },
   {
     title: "Innovation & Technology Exhibition",
     description:
-      "Discover advanced security platforms, AI-powered defense solutions, identity and access management systems, and next-generation cybersecurity technologies.",
+      "Explore breakthrough AI software, computational tools, digital laboratories, and data-driven drug discovery platforms.",
   },
   {
     title: "Strategic Networking Opportunities",
     description:
-      "Build meaningful connections with global stakeholders across academia, industry, government, defense, and investment sectors.",
+      "Connect with global stakeholders across pharma R&D, AI technology, academia, investment, and regulatory ecosystems.",
   },
   {
-    title: "Zero-Trust & Cybersecurity Focus",
+    title: "AI-Driven Healthcare Transformation Focus",
     description:
-      "Gain insights into internationally aligned zero-trust frameworks, regulatory compliance, AI threat intelligence, and scalable enterprise security solutions.",
+      "Gain insights into responsible AI, regulatory-compliant models, explainable AI, and patient-centric drug development strategies.",
   },
   {
     title: "Scientific & Market Intelligence",
     description:
-      "Explore the latest research findings, market trends, regulatory developments, and commercialization pathways in cybersecurity and AI defense.",
+      "Discover the latest research breakthroughs, market trends, regulatory updates, and commercialization pathways in AI-powered drug discovery.",
     linkText: "View event schedule",
-    link: "/zerotrustai-event-schedule",
+    link: "/aidrug-event-schedule",
   },
   {
     title: "Collaboration & Partnership Platforms",
     description:
-      "Foster cross-sector collaborations to advance research, innovation, and scalable digital security and defense solutions.",
+      "Build cross-sector partnerships to accelerate innovation, scale AI solutions, and reduce time-to-market.",
   },
   {
     title: "Professional Development & Accreditation",
     description:
-      "Earn professional development recognition through certified learning sessions, hands-on workshops, and advanced technical training programs.",
+      "Earn professional development recognition through certified learning sessions, hands-on workshops, and advanced technical training.",
   },
 ],
+
 
 
 
@@ -132,11 +136,11 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-Fostering Collaboration Driving Advanced Cyber Defense Impact
+Fostering Innovation Accelerating the Future of Medicine
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
-          24<sup></sup> - 25<sup></sup> Sep 2026
+          22<sup></sup> - 23<sup></sup> Oct 2026
         </strong>
       </p>
 
@@ -152,7 +156,7 @@ Fostering Collaboration Driving Advanced Cyber Defense Impact
       {/* Join Section */}
       <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
         <h2 className="text-3xl font-bold text-one mb-4 w-full">
-          Join the Global Community at on ZEROTRUSTAI-2026
+          Join the Global Community at on AIDRUG-2026
         </h2>
         {data.join.map((para, idx) => (
           <p
@@ -172,25 +176,25 @@ Fostering Collaboration Driving Advanced Cyber Defense Impact
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-     Cybersecurity and Threat Intelligence Researchers
+  Pharmaceutical & Biotech Researchers
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-AI and Machine Learning Security Professionals
+Drug Discovery Scientists & R&D Professionals
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-IT, Cloud, and Network Security Experts
+AI, Machine Learning & Data Science Experts
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-    Government, Industry, and Policy Leaders
+Computational Biologists & Bioinformaticians
             </h3>
           </div>
         </div>

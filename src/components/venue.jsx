@@ -4,12 +4,12 @@ import ImageGalleryCard from "./ui/ImageGalleryCard";
 import { Link } from "react-router-dom";
  
 const venueList = [
-  { id: 1, name: "Hozen -ji Temple" },
-  { id: 2, name: "Nakanoshima park" },
-  { id: 3, name: "Osaka Castle" },
-  { id: 4, name: "Sumiyoshi Taisha" },
-  { id: 5, name: "Umeda sky Buiding" },
-  { id: 6, name: "Universal-Studios-Japan-" },
+  { id: 1, name: "Clarke Quay" },
+  { id: 2, name: "East coast park" },
+  { id: 3, name: "Kampong Glam" },
+  { id: 4, name: "Merlion park" },
+  { id: 5, name: "Sentosa Island" },
+  { id: 6, name: "Singapore Flyer" },
 
 ];
  
@@ -17,7 +17,7 @@ const Venue = () => {
   return (
     <div className="w-full py-8 px-4 md:px-12 flex flex-col justify-center items-center md:px-32 border-t">
       <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-   ZEROTRUSTAI -Venue
+  AIDRUG   -Venue
       </h2>
  
       <div className="flex flex-col md:flex-row justify-between gap-4 w-full">
@@ -28,7 +28,7 @@ const Venue = () => {
           {/* Highlighted Venue List */}
           <h1 className="">Proposed Conference Venue</h1>
           <h1 className="text-2xl md:text-2xl font-bold mb-8 text-left text-one">
-      Osaka | Japan
+     Singapore 
           </h1>
           <ul className="mt-4 space-y-2 ">
             {venueList.map((item) => (

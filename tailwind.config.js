@@ -73,7 +73,7 @@
 // };
 
 // -------------------The code 1 is here-------------
-/** /** /** /** /** @type {import('tailwindcss').Config} */
+/** /** /** /** /** /** @type {import('tailwindcss').Config} */
 module.exports = {
   webpack(config) {
     config.module.rules.push({
@@ -83,7 +83,9 @@ module.exports = {
     });
     return config;
   },
+
   content: ["./src/**/*.{html,js,jsx}"],
+
   theme: {
     extend: {
       animation: {
@@ -96,31 +98,31 @@ module.exports = {
       },
 
       colors: {
-        /* 🔵 Brand colors – updated to rgb(84, 109, 197) */
-        one: "rgb(84, 109, 197)",          // Main brand color
-        accent: "rgb(84, 109, 197)",
-        blueBrand: "rgb(84, 109, 197)",
+        /* 🟣 Brand colors – UPDATED */
+        one: "#c037ad",
+        accent: "#c037ad",
+        brand: "#c037ad",
 
         /* 🌑 Backgrounds */
-        primary: "#0E1120",     // Deep blue-black
-        secondary: "#151A33",   // Soft indigo dark
-        coal: "#0A0D1A",        // Almost black blue
+        primary: "#0E1120",
+        secondary: "#151A33",
+        coal: "#0A0D1A",
 
-        /* 🎨 Supporting / UI */
-        sky: "rgba(84, 109, 197, 0.1)",     // Light blue glow
-        orange: "rgba(84, 109, 197, 0.4)",  // Muted brand highlight
-        lightGreen: "rgba(84, 109, 197, 0.2)", // Soft pastel blue
+        /* 🎨 Supporting / UI (derived from brand) */
+        sky: "rgba(192, 55, 173, 0.1)",
+        orange: "rgba(192, 55, 173, 0.4)",
+        lightGreen: "rgba(192, 55, 173, 0.2)",
 
         /* 📊 Track / row colors */
         track: {
           odd: "#1B1F3A",
           even: "#13172E",
-          blue: "rgb(84, 109, 197)",
+          purple: "#c037ad",
         },
       },
 
       textShadow: {
-        "blue-950": "0px 0px 50px rgb(84, 109, 197)",
+        "brand-glow": "0px 0px 50px #c037ad",
       },
 
       keyframes: {
@@ -138,7 +140,7 @@ module.exports = {
         },
         blink: {
           "0%, 100%": { opacity: 1 },
-          "0%": { opacity: 0 },
+          "50%": { opacity: 0 },
         },
         fadeOut: {
           "0%": { opacity: 1 },
@@ -151,6 +153,7 @@ module.exports = {
       },
     },
   },
+
   plugins: [
     require("tailwindcss-textshadow"),
     require("@tailwindcss/line-clamp"),

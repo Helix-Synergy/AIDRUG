@@ -7,7 +7,7 @@ const Orators = () => {
   return (
     <div className="flex flex-col px-4 md:px-12 py-8 items-center justify-center my-8">
       <h1 className="text-2xl text-black md:text-3xl font-bold text-center">
-       ZEROTRUSTAI -Orators
+       AIDRUG -Orators
       </h1>
   
 
@@ -24,7 +24,7 @@ const Orators = () => {
         ))}
       </div>
 
-      <Link to="/zerotrustai-orators"  >
+      <Link to= "/aidrug-orators"   >
         <button className="bg-one text-white px-10 md:px-20 py-2 rounded-full mt-6 text-sm md:text-base">
           View All
         </button>

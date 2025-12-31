@@ -32,7 +32,7 @@ const links = [
     id: 'event-schedule',
     icon: CalendarCheck,
     label: 'Schedule',
-    link:"/zerotrustai-event-schedule"
+    link:"/aidrug-event-schedule"
   },
   {
     id: 'faq',

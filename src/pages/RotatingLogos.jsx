@@ -4,40 +4,40 @@ import { Link } from "react-router-dom";
 // Images for agri
 import img1 from "../assets/tracks/img1.jpg";
 import img2 from "../assets/tracks/img2.jpg"
-import img3  from "../assets/tracks/img3.jpg";
+import img3  from "../assets/tracks/img3.webp";
 import img4 from "../assets/tracks/img4.webp";
-import img5 from "../assets/tracks/img5.avif";
-import img6 from "../assets/tracks/img6.jpg"
+import img5 from "../assets/tracks/img5.webp";
+import img6 from "../assets/tracks/img6.webp"
 import img7 from "../assets/tracks/img7.jpeg";
-import img8 from "../assets/tracks/img8.png"
+import img8 from "../assets/tracks/img8.jpeg"
 import img9 from "../assets/tracks/img9.jpg";
-import img10 from "../assets/tracks/img10.jpeg"
-import img11 from "../assets/tracks/img11.webp";
+import img10 from "../assets/tracks/img10.webp"
+import img11 from "../assets/tracks/img11.avif";
 import img12 from "../assets/tracks/img12.webp"
-import img13 from "../assets/tracks/img13.jpeg";
+import img13 from "../assets/tracks/img13.jpg";
 import img14 from "../assets/tracks/img14.webp"
-import img15 from "../assets/tracks/img15.png";
+import img15 from "../assets/tracks/img15.webp";
 import img16 from "../assets/tracks/img16.webp"
-import img17 from "../assets/tracks/img17.jpg"
-import img18 from "../assets/tracks/img18.png";
-import img19 from "../assets/tracks/img19.jpeg"
+import img17 from "../assets/tracks/img17.webp"
+import img18 from "../assets/tracks/img18.avif";
+import img19 from "../assets/tracks/img19.jpg"
 import img20 from "../assets/tracks/img20.jpeg"
 
 export const tracks = [
   {
     image: img1,
-    title: "Future of AI & Security",
+    title: "AI in Drug formulation",
     description: (
       <>
-This track explores the convergence of {" "}
+AI accelerates {" "}
         <Link
           to="/"
           className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-      artificial intelligence and cybersecurity,
-        </Link> highlighting emerging technologies, predictive threat modeling, and automated defense strategies. Participants gain insights into AI-driven security architectures, proactive threat prevention, and the evolving landscape of cyber defense, enabling organizations to anticipate, detect, and neutralize sophisticated digital threats efficiently.
+       drug formulation
+        </Link> by predicting optimal compound combinations, stability, and delivery methods. Machine learning models analyze chemical properties, reducing experimental trials, enhancing efficiency, and improving safety profiles, enabling faster development of effective pharmaceuticals while minimizing costs and enhancing precision in drug design and personalized therapies.
    
       </>
     ),
@@ -45,51 +45,49 @@ This track explores the convergence of {" "}
 
   {
     image: img2,
-    title: "Cybersecurity",
+    title: "R&D Innovation",
     description: (
       <>
-{" "}
+R&D innovation drives breakthroughs in pharmaceuticals by integrating new technologies, methodologies, and scientific insights. It enhances efficiency, reduces costs, and improves outcomes in drug discovery, clinical research, and manufacturing. Innovative approaches, such as AI,{" "}
         <Link
-          to="/about-zerotrustai" 
+          to="/about-aidrug" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-     Cybersecurity 
-        </Link>{" "} focuses on safeguarding digital assets, networks, and information systems from unauthorized access, cyberattacks, and data breaches. This track covers defensive strategies, vulnerability management, incident response, and emerging technologies. Attendees learn best practices to strengthen organizational security, mitigate risks, and ensure resilience against evolving cyber threats in complex environments.
+    nanotechnology,
+        </Link>{" "} , and molecular modeling, enable the development of novel therapies and address unmet medical needs
       </>
     ),
   },
 
   {
     image: img3,
-    title: "Zero-Trust Focused",
+    title: "Healthcare",
     description: (
       <>
 {" "}
         <Link
-          to="/zerotrustai-event-schedule" 
+          to="/aidrug-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-  Zero-trust security
-        </Link> eliminates implicit trust, enforcing strict verification for all users, devices, and applications. This track examines implementation strategies, identity and access management, micro-segmentation, and policy frameworks. Participants gain practical insights into building resilient, secure networks that minimize attack surfaces while ensuring seamless, secure access across distributed systems.
+Healthcare
+        </Link> focuses on the prevention, diagnosis, treatment, and management of diseases. Advances in technology, AI, and biotechnology improve patient care, personalize treatment, and optimize health outcomes. Integration of digital health solutions, precision medicine, and innovative therapies ensures efficient, accessible, and patient-centered healthcare systems worldwide.
       </>
     ),
   },
 
   {
     image: img4,
-    title: "Aerospace",
+    title: "Early Discovery & Design",
     description: (
       <>
-     The   {" "}
+ Early discovery and design involve identifying promising drug candidates and designing molecules with therapeutic potential. Computational tools, high-throughput screening, and molecular modeling streamline target identification and lead optimization, reducing time and cost while improving the likelihood of developing effective, safe, and marketable pharmaceutical compounds.   {" "}
         <Link
           to="/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
-        >
-Aerospace 
-        </Link>{" "} track explores cybersecurity challenges in aviation, satellites, and space systems. Topics include secure communications, threat detection, AI-enhanced defense, and regulatory compliance. Participants learn strategies to protect critical aerospace infrastructure, mitigate cyber risks, and integrate AI-based monitoring for resilient, secure operations in both civil and defense aerospace sectors.
+        > </Link>{" "} 
 
       </>
     ),
@@ -97,17 +95,17 @@ Aerospace
 
   {
     image: img5 ,
-    title: "Threat Detection & Response",
+    title: "Core Science & Technology",
     description: (
       <>
-This track emphasizes proactive strategies for identifying and mitigating cyber threats. Topics include intrusion detection, real-time monitoring, incident response, and AI-enhanced detection systems. Participants gain insights into designing effective threat response workflows, improving detection accuracy, and reducing response times to safeguard critical infrastructure against{" "}
+{" "}
         <Link
           to="/contact"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-    sophisticated cyberattacks.
-        </Link>{" "}
+   Core science and technology
+        </Link>{" "} underpin pharmaceutical research, providing foundational knowledge in chemistry, biology, and physics. Advanced analytical tools, biotechnology, and computational methods enable accurate experimentation, molecular understanding, and innovative solutions, forming the backbone of drug discovery, development, and therapeutic innovation.
    
       </>
     ),
@@ -115,17 +113,17 @@ This track emphasizes proactive strategies for identifying and mitigating cyber 
 
   {
     image: img6,
-    title: "Data Protection",
+    title: "Toxicology",
     description: (
       <>
 
         <Link
-          to="/zerotrustai-orators"
+          to= "/aidrug-orators" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-   Data protection
-        </Link>{" "}  focuses on securing sensitive information across organizations. This track covers encryption, secure storage, access control, and regulatory compliance. Attendees learn best practices for safeguarding data integrity, confidentiality, and availability, ensuring compliance with global standards while mitigating risks of breaches, leaks, and ransomware attacks in digital ecosystems.
+  Toxicology
+        </Link>{" "}  studies the harmful effects of chemicals, drugs, and environmental agents on biological systems. It assesses safety, dosage limits, and risk factors, ensuring compounds are safe for human use. Preclinical toxicology testing identifies potential side effects and guides regulatory compliance in pharmaceutical development.
      
       </>
     ),
@@ -133,7 +131,7 @@ This track emphasizes proactive strategies for identifying and mitigating cyber 
 
   {
     image: img7,
-    title: "AI Forensics",
+    title: "Molecular Design",
     description: (
       <>
 {" "}
@@ -142,25 +140,25 @@ This track emphasizes proactive strategies for identifying and mitigating cyber 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-     AI forensics
-        </Link>{" "}  combines artificial intelligence with digital investigation techniques to analyze cyber incidents. This track covers threat attribution, anomaly detection, evidence preservation, and AI-assisted forensic tools. Participants gain expertise in leveraging AI to uncover attack vectors, trace malicious activity, and enhance cybersecurity investigations with speed, accuracy, and reliability.
+    
+        </Link>{" "}  Molecular design involves creating molecules with specific biological activities using computational modeling, structure-activity relationships, and chemical synthesis. It enables rational drug design, optimizing efficacy, selectivity, and safety. Molecular design accelerates discovery of novel therapeutics and enhances targeted treatment strategies.
       </>
     ),
   },
 
   {
     image:  img8,
-    title: "Defense Technology",
+    title: "Pharmacoeconomics",
     description: (
       <>
-      Defense technology explores advanced tools and systems for national security and cyber defense. Topics include AI-enhanced cybersecurity platforms, secure communications, autonomous defense systems, and threat mitigation. Attendees gain insights into integrating cutting-edge technology to strengthen cyber defenses, protect critical infrastructure, and support strategic security operations worldwide. {" "}
+  {" "}
         <Link
-          to="/zerotrustai-orators"
+          to="/aidrug-orators" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-  
-        </Link>{" "} 
+  Pharmacoeconomics
+        </Link>{" "}  evaluates the cost-effectiveness, value, and economic impact of drugs and therapies. It helps healthcare systems, policymakers, and pharmaceutical companies make informed decisions regarding resource allocation, pricing, and reimbursement while balancing therapeutic benefits and financial sustainability.
       
       </>
     ),
@@ -168,17 +166,17 @@ This track emphasizes proactive strategies for identifying and mitigating cyber 
 
   {
     image: img9,
-    title: "Risk Management",
+    title: "Bio Pharma Strategy",
     description: (
       <>
-Risk management focuses on identifying, assessing, and mitigating cybersecurity threats and vulnerabilities. This track covers risk assessment frameworks, AI-assisted threat modeling, compliance, and incident response planning. Participants learn strategies to prioritize threats, allocate resources efficiently, and implement proactive measures that enhance organizational resilience and{" "}
+{" "}
         <Link
-          to="/about-zerotrustai" 
+          to="/about-aidrug" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-  digital security. 
-        </Link>{" "}
+Biopharma strategy  
+        </Link>{" "} focuses on guiding pharmaceutical companies in research, development, marketing, and commercialization. It involves portfolio management, competitive analysis, regulatory planning, and innovation adoption to maximize growth, patient impact, and market presence in a dynamic healthcare landscape.
 
       </>
     ),
@@ -186,25 +184,24 @@ Risk management focuses on identifying, assessing, and mitigating cybersecurity 
 
   {
     image: img10,
-    title: "Intelligence & Innovation",
+    title: "Drug Development",
     description: (
       <>
- This track examines how intelligence-driven approaches and{" "}
+{" "}
         <Link
           to="/event_partners"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-innovative technologies 
-        </Link>{" "} transform cybersecurity. Topics include AI-based threat intelligence, predictive analytics, and emerging defensive solutions. Participants explore strategies to anticipate cyber threats, accelerate innovation in security practices, and leverage AI to gain a strategic advantage in both defense and enterprise cybersecurity operations.
-
+Drug development
+        </Link>{" "}  encompasses the process of discovering, testing, and bringing new medications to market. It involves preclinical research, clinical trials, regulatory approval, and manufacturing. This structured process ensures efficacy, safety, and compliance while addressing unmet medical needs.
       </>
     ),
   },
 
   {
     image: img11,
-    title: "AI Encryption",
+    title: "AI in Clinical Research",
     description: (
       <>
      {" "}
@@ -213,8 +210,8 @@ innovative technologies
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-AI encryption 
-        </Link>  explores leveraging artificial intelligence to strengthen cryptographic techniques and secure communications. This track covers quantum-resistant encryption, automated key management, secure data transmission, and AI-enhanced protocols. Participants learn to implement adaptive, intelligent encryption solutions that protect sensitive information against evolving cyber threats and sophisticated attacks.
+AI in clinical research
+        </Link>  enhances trial design, patient recruitment, data analysis, and outcome prediction. Machine learning models optimize protocols, detect trends, and reduce trial duration and costs. AI improves efficiency, accuracy, and decision-making in developing safer, more effective therapies.
       </>
 
     ),
@@ -222,17 +219,17 @@ AI encryption
 
   {
     image: img12,
-    title: "Digital Forensics",
+    title: "Pharmacodynamics",
     description: (
       <>
-Digital forensics focuses on investigating cyber incidents, preserving evidence, and analyzing malicious activity. This track covers forensic tools, AI-assisted investigations, malware analysis, and regulatory compliance. Participants gain insights into systematically uncovering cyberattacks, tracing threat actors, and supporting legal and organizational responses to digital security breaches. {" "}
+ {" "}
         <Link
           to="/event_partners" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-   
-        </Link>{" "}    
+   Pharmacodynamics 
+        </Link>{" "}  studies how drugs interact with biological systems, analyzing mechanisms of action, efficacy, and therapeutic effects. Understanding drug-receptor interactions, dose-response relationships, and biological pathways is essential for optimizing therapy and minimizing adverse effects.   
       
       </>
     ),
@@ -240,7 +237,7 @@ Digital forensics focuses on investigating cyber incidents, preserving evidence,
 
   {
     image: img13,
-    title: "API Security",
+    title: "Clinical Trials",
     description: (
       <>
 {" "}
@@ -250,7 +247,7 @@ Digital forensics focuses on investigating cyber incidents, preserving evidence,
              transition-colors duration-300"
         >
        API security
-        </Link> ensures safe interactions between software applications and services. This track covers threat detection, authentication, encryption, and vulnerability mitigation for APIs. Participants learn strategies to prevent data breaches, ensure secure integrations, and maintain the integrity of modern cloud-native and AI-driven systems critical for organizational operations.
+        </Link> Clinical trials test new drugs or treatments in human participants to evaluate safety, efficacy, and dosage. Conducted in phases, they follow strict regulatory standards, generating evidence required for drug approval, informed patient care, and medical advancement.
 
         
       </>
@@ -259,17 +256,17 @@ Digital forensics focuses on investigating cyber incidents, preserving evidence,
 
   {
     image:img14,
-    title: "Future & Innovation",
+    title: "Polypharmacology",
     description: (
       <>
-This track explores emerging technologies, trends, and innovations shaping the future of cybersecurity. Topics include AI-driven defense, zero-trust frameworks, autonomous monitoring, and predictive analytics. Participants gain insights into forward-looking strategies, anticipate next-generation threats, and design resilient security infrastructures for rapidly evolving {" "}
+ {" "}
         <Link
-          to="/about-zerotrustai"
+          to="/about-aidrug" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-       digital environments.
-        </Link>  
+    Polypharmacology
+        </Link>  studies drugs affecting multiple targets simultaneously. This approach can improve efficacy, reduce resistance, and treat complex diseases like cancer or neurodegenerative disorders. It supports rational drug design and combination therapies for better patient outcomes.
         
       </>
     ),
@@ -277,17 +274,17 @@ This track explores emerging technologies, trends, and innovations shaping the f
 
   {
     image: img15,
-    title: "Biomedical sciences",
+    title: "Pharma Analytics",
     description: (
       <>
       {" "}
         <Link
-          to="/zerotrustai-orators"
+          to= "/aidrug-orators" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-       AI monitoring
-        </Link>  focuses on real-time surveillance of systems using artificial intelligence. This track covers anomaly detection, behavioral analytics, threat prediction, and automated alerts. Participants learn to implement intelligent monitoring solutions that enhance situational awareness, improve threat response times, and strengthen proactive cybersecurity defenses across enterprise networks.
+     Pharma analytics 
+        </Link> involves analyzing large datasets from clinical trials, drug manufacturing, and market trends to inform decision-making. Data-driven insights optimize research, supply chains, marketing, and patient outcomes, enhancing efficiency and competitive advantage in the pharmaceutical industry.
      
       </>
     ),
@@ -295,17 +292,17 @@ This track explores emerging technologies, trends, and innovations shaping the f
 
   {
     image: img16,
-    title: "Network Detection",
+    title: "Proteomics & Phenomics",
     description: (
       <>
-Network detection involves identifying malicious activity within digital networks. This track covers intrusion detection systems, AI-based traffic analysis, anomaly detection, and threat intelligence. Participants gain practical knowledge to detect and mitigate network threats, ensuring secure connectivity, uninterrupted operations, and proactive protection against evolving cyberattack strategies. {" "}
+{" "}
         <Link
-          to= "/zerotrustai-orators"
+          to=  "/aidrug-orators" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-        
-        </Link> 
+        Proteomics and phenomics
+        </Link>  study proteins and observable traits in biological systems. These approaches help understand disease mechanisms, identify biomarkers, and develop targeted therapies, enabling precision medicine and improved therapeutic interventions.
 </>
     ),
   },
@@ -315,14 +312,14 @@ Network detection involves identifying malicious activity within digital network
     title: "Cognitive Defense",
     description: (
       <>
- Cognitive defense leverages AI and machine learning to simulate human reasoning in cybersecurity. This track explores autonomous threat analysis, predictive defense models, and decision-making algorithms. Participants learn to deploy intelligent systems that anticipate attacks, adapt to emerging threats, and provide scalable, dynamic protection across complex {" "}
+ {" "}
         <Link
           to="/contact"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-       digital infrastructures.
-        </Link>  
+     Nanotechnology
+        </Link>  applies nanoscale materials and devices in drug delivery, diagnostics, and therapeutics. It improves bioavailability, targeting, and controlled release, enhancing treatment efficacy and safety while opening possibilities for innovative medical solutions.
   
       </>
     ),
@@ -331,7 +328,7 @@ Network detection involves identifying malicious activity within digital network
 
   {
     image: img18,
-    title: "Zero-Trust Cloud",
+    title: "Gene & Cell Therapy",
     description: (
       <>
    {" "}
@@ -340,8 +337,8 @@ Network detection involves identifying malicious activity within digital network
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-       Zero-trust cloud
-        </Link>  focuses on securing cloud environments through strict access verification and continuous monitoring. This track covers cloud-native security frameworks, identity management, segmentation, and AI-enhanced threat detection. Participants explore strategies to protect cloud infrastructure, data, and applications while enabling secure, scalable, and resilient cloud adoption.
+   Gene and cell therapies
+        </Link>  modify genetic material or cellular functions to treat diseases. Techniques like CRISPR, CAR-T, and stem cell therapies aim to correct genetic defects, restore function, or regenerate tissues, offering potential cures for previously untreatable conditions.
 
       </>
     ),
@@ -350,33 +347,32 @@ Network detection involves identifying malicious activity within digital network
   
   {
     image: img19,
-    title: " Cyber Resilience",
+    title: "Antibiotic Discovery",
     description: (
       <>
-  {" "}
+  Antibiotic discovery focuses on finding new agents to combat bacterial infections, especially resistant strains. Research involves screening natural products, synthetic compounds, and {" "}
         <Link
           to="/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Cyber resilience 
-        </Link> emphasizes an organization’s ability to withstand, respond to, and recover from cyber incidents. This track covers risk assessment, incident response, business continuity planning, and AI-assisted recovery strategies. Participants gain insights into creating robust, adaptive defenses that minimize downtime, protect critical assets, and ensure operational continuity.
+novel mechanisms,
+        </Link>  aiming to address global antimicrobial resistance and safeguard public health.
       </>
     ),
   },
   {
     image:img20,
-    title: "AI Radar",
+    title: "Oncology & Rare Diseases",
     description: (
       <>
-     I Radar explores advanced AI-based threat detection and situational {" "}
+Oncology targets cancer treatment through drugs, immunotherapies, and precision medicine, while rare disease research addresses low-prevalence conditions. Both fields prioritize innovative therapies, clinical trials, and personalized approaches to improve patient outcomes and quality of life.{" "}
         <Link
-          to="/about-zerotrustai" 
+          to="/about-aidrug" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-    awareness systems. 
-        </Link>{" "} This track covers predictive monitoring, anomaly detection, automated threat intelligence, and response coordination. Participants learn to leverage AI radar technologies to detect emerging cyber threats early, enhance decision-making, and improve the overall security posture of organizations and critical infrastructure
+</Link>{" "} 
        
       </>
     ),
