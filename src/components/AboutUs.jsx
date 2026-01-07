@@ -37,7 +37,10 @@ loading="lazy"
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"> AI Drug Discovery Conference.  </Link>   Our international summits convene scientists, pharmaceutical leaders, AI innovators, and policymakers who are shaping the next era of data-driven drug development.
   The AI Drug Discovery Conference brings together pioneers in  <Link
-            className="text-accent font-bold"
+            // className="text-accent font-bold"
+            className="
+             hover:text-accent hover:decoration-accent
+             transition-colors duration-300"
             target="_blank"
             to="https://helixconferences.com/blog.php"
           >
