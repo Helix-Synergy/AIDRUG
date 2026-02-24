@@ -25,24 +25,24 @@ const data = {
     organizer: "Helix Conferences",
     description: [
       <>
-  
-The <Link to= "/aidrug-orators"  className="
+
+        The <Link to="/aidrug-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-World AI Drug Discovery Conference, </Link> organized by Helix Conferences, is a distinguished international forum dedicated to advancing cutting-edge AI technologies and computational strategies that accelerate drug discovery while improving efficiency, precision, and patient outcomes.
-The conference is designed to facilitate high-level scientific exchange, cross-sector collaboration, and evidence-based dialogue that drives the translation of AI innovations from research to real-world pharmaceutical applications. Key focus areas include AI-enabled target identification, virtual screening, molecular design, predictive toxicology, drug repurposing, clinical trial optimization, and regulatory-ready AI frameworks.
-Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and research-driven presentations, participants gain strategic insights into emerging AI platforms, evolving regulatory landscapes, data governance, ethical AI adoption, and scalable drug development models.
-<Link to="/about-aidrug" className="
+          World AI Drug Discovery Conference, </Link> organized by Helix Conferences, is a distinguished international forum dedicated to advancing cutting-edge AI technologies and computational strategies that accelerate drug discovery while improving efficiency, precision, and patient outcomes.
+        The conference is designed to facilitate high-level scientific exchange, cross-sector collaboration, and evidence-based dialogue that drives the translation of AI innovations from research to real-world pharmaceutical applications. Key focus areas include AI-enabled target identification, virtual screening, molecular design, predictive toxicology, drug repurposing, clinical trial optimization, and regulatory-ready AI frameworks.
+        Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and research-driven presentations, participants gain strategic insights into emerging AI platforms, evolving regulatory landscapes, data governance, ethical AI adoption, and scalable drug development models.
+        <Link to="/about-aidrug" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
- </Link>
- 
-      
+        </Link>
+
+
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to= "/aidrug-conference-tracks/"
+          to="/aidrug-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -57,53 +57,53 @@ Through keynote addresses, plenary sessions, expert-led panels, technical worksh
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global leaders, innovators, and policymakers in shaping a faster, smarter, and more sustainable future for drug discovery and healthcare innovation..",
+        "Join global leaders, innovators, and policymakers in shaping a faster, smarter, and more sustainable future for drug discovery and healthcare innovation..",
     },
   ],
-highlights : [
-  {
-    title: "Distinguished Keynote Speakers",
-    description:
-      "Engage with internationally recognized leaders driving AI innovation across pharmaceutical research, biotechnology, and healthcare systems.",
-  },
-  {
-    title: "Technical Workshops & Expert Sessions",
-    description:
-      "Participate in in-depth sessions covering AI-based molecular modeling, predictive analytics, automation in drug discovery, and translational AI platforms.",
-  },
-  {
-    title: "Innovation & Technology Exhibition",
-    description:
-      "Explore breakthrough AI software, computational tools, digital laboratories, and data-driven drug discovery platforms.",
-  },
-  {
-    title: "Strategic Networking Opportunities",
-    description:
-      "Connect with global stakeholders across pharma R&D, AI technology, academia, investment, and regulatory ecosystems.",
-  },
-  {
-    title: "AI-Driven Healthcare Transformation Focus",
-    description:
-      "Gain insights into responsible AI, regulatory-compliant models, explainable AI, and patient-centric drug development strategies.",
-  },
-  {
-    title: "Scientific & Market Intelligence",
-    description:
-      "Discover the latest research breakthroughs, market trends, regulatory updates, and commercialization pathways in AI-powered drug discovery.",
-    linkText: "View event schedule",
-    link: "/aidrug-event-schedule",
-  },
-  {
-    title: "Collaboration & Partnership Platforms",
-    description:
-      "Build cross-sector partnerships to accelerate innovation, scale AI solutions, and reduce time-to-market.",
-  },
-  {
-    title: "Professional Development & Accreditation",
-    description:
-      "Earn professional development recognition through certified learning sessions, hands-on workshops, and advanced technical training.",
-  },
-],
+  highlights: [
+    {
+      title: "Distinguished Keynote Speakers",
+      description:
+        "Engage with internationally recognized leaders driving AI innovation across pharmaceutical research, biotechnology, and healthcare systems.",
+    },
+    {
+      title: "Technical Workshops & Expert Sessions",
+      description:
+        "Participate in in-depth sessions covering AI-based molecular modeling, predictive analytics, automation in drug discovery, and translational AI platforms.",
+    },
+    {
+      title: "Innovation & Technology Exhibition",
+      description:
+        "Explore breakthrough AI software, computational tools, digital laboratories, and data-driven drug discovery platforms.",
+    },
+    {
+      title: "Strategic Networking Opportunities",
+      description:
+        "Connect with global stakeholders across pharma R&D, AI technology, academia, investment, and regulatory ecosystems.",
+    },
+    {
+      title: "AI-Driven Healthcare Transformation Focus",
+      description:
+        "Gain insights into responsible AI, regulatory-compliant models, explainable AI, and patient-centric drug development strategies.",
+    },
+    {
+      title: "Scientific & Market Intelligence",
+      description:
+        "Discover the latest research breakthroughs, market trends, regulatory updates, and commercialization pathways in AI-powered drug discovery.",
+      linkText: "View event schedule",
+      link: "/aidrug-event-schedule",
+    },
+    {
+      title: "Collaboration & Partnership Platforms",
+      description:
+        "Build cross-sector partnerships to accelerate innovation, scale AI solutions, and reduce time-to-market.",
+    },
+    {
+      title: "Professional Development & Accreditation",
+      description:
+        "Earn professional development recognition through certified learning sessions, hands-on workshops, and advanced technical training.",
+    },
+  ],
 
 
 
@@ -136,7 +136,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-Fostering Innovation Accelerating the Future of Medicine
+        Fostering Innovation Accelerating the Future of Medicine
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
@@ -147,7 +147,7 @@ Fostering Innovation Accelerating the Future of Medicine
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
         >
           {desc}
         </p>
@@ -161,7 +161,7 @@ Fostering Innovation Accelerating the Future of Medicine
         {data.join.map((para, idx) => (
           <p
             key={idx}
-            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+            className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
           >
             {para.text} <Link to={para.link}>{para.linkText}</Link>
             {para.suffix}
@@ -176,25 +176,25 @@ Fostering Innovation Accelerating the Future of Medicine
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-  Pharmaceutical & Biotech Researchers
+              Pharmaceutical & Biotech Researchers
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Drug Discovery Scientists & R&D Professionals
+              Drug Discovery Scientists & R&D Professionals
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-AI, Machine Learning & Data Science Experts
+              AI, Machine Learning & Data Science Experts
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Computational Biologists & Bioinformaticians
+              Computational Biologists & Bioinformaticians
             </h3>
           </div>
         </div>
@@ -214,7 +214,7 @@ Computational Biologists & Bioinformaticians
                 <h3 className="font-semibold whitespace-nowrap mr-1">
                   {highlight.title} –
                 </h3>
-                <p className="text-md text-gray-600 flex-1">
+                <p className="text-md text-gray-600 flex-1 text-justify">
                   {highlight.link ? (
                     <>
                       {highlight.description}{" "}
