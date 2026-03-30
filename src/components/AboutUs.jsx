@@ -42,7 +42,7 @@ loading="lazy"
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"
             target="_blank"
-            to="https://helixconferences.com/blog.php"
+            // to="https://helixconferences.com/blog.php"
           >
           artificial intelligence, machine learning, computational biology, cheminformatics, bioinformatics, and pharmaceutical R&D.   
             

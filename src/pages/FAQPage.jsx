@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is ZEROTRUSTAI-2026?",
+    question: "What is AIDRUG-2026?",
     answer:
-      "ZEROTRUSTAI-2026, officially titled the “Zero-Trust Security & AI Defense Forum”, is a premier international conference organized by Helix Conferences. The forum brings together cybersecurity leaders, AI researchers, defense experts, enterprises, startups, and policymakers to explore Zero-Trust architectures, AI-driven security, cyber resilience, threat intelligence, and next-generation defense strategies.",
+      "AIDRUG-2026, officially titled the “AI Drug Discovery Conclave”, is a premier international conference focused on the application of Artificial Intelligence, Machine Learning, and Data Science in drug discovery and development. The conclave brings together pharmaceutical leaders, biotech innovators, AI researchers, clinicians, startups, and policymakers to advance next-generation therapeutics.",
   },
   {
-    question: "When and where will ZEROTRUSTAI-2026 take place?",
+    question: "When and where will AIDRUG-2026 take place?",
     answer:
-      "ZEROTRUSTAI-2026 will be held on September 24–25, 2026, in Osaka, Japan.",
+      "AIDRUG-2026 will be held on October 22–23, 2026, in Singapore.",
   },
   {
-    question: "What are the key highlights of ZEROTRUSTAI-2026?",
+    question: "What are the key highlights of AIDRUG-2026?",
     answer:
-      "Keynote addresses by global cybersecurity experts, AI security workshops, real-world Zero-Trust implementations, advanced threat detection sessions, panel discussions, live technology demonstrations, startup showcases, and high-impact networking opportunities.",
+      "Keynote addresses by global pharma and AI leaders, hands-on AI drug discovery workshops, real-world case studies, startup showcases, investor connect sessions, panel discussions, live technology demonstrations, and high-impact networking opportunities.",
   },
   {
-    question: "What topics and tracks are covered at ZEROTRUSTAI-2026?",
+    question: "What topics and tracks are covered at AIDRUG-2026?",
     answer: (
       <>
         Explore the complete list of conference tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          ZEROTRUSTAI-2026 Tracks
+          AIDRUG-2026 Tracks
         </a>
         .
       </>
@@ -87,14 +87,14 @@ export const faqData = [
       "Standard presentation slots are typically 15–20 minutes, including Q&A. Final guidelines will be shared upon acceptance.",
   },
   {
-    question: "Who should attend ZEROTRUSTAI-2026?",
+    question: "Who should attend AIDRUG-2026?",
     answer:
-      "Cybersecurity professionals, CISOs, AI researchers, cloud architects, DevSecOps engineers, government officials, defense professionals, technology providers, startups, and academicians.",
+      "Pharmaceutical scientists, biotech professionals, AI & ML researchers, computational biologists, data scientists, clinical researchers, startup founders, investors, CROs, regulatory professionals, and academicians.",
   },
   {
     question: "How many participants are expected?",
     answer:
-      "ZEROTRUSTAI-2026 is expected to host 150+ international participants, including speakers, delegates, exhibitors, and sponsors.",
+      "AIDRUG-2026 is expected to host 150+ international participants, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I submit multiple abstracts?",
@@ -109,7 +109,7 @@ export const faqData = [
   {
     question: "What is expected from speakers and exhibitors?",
     answer:
-      "Speakers and exhibitors are expected to deliver insightful, industry-relevant, and innovation-driven sessions while actively engaging with attendees.",
+      "Speakers and exhibitors are expected to deliver insightful, application-driven, and innovation-focused sessions while actively engaging with attendees.",
   },
   {
     question: "Is there a registration fee?",
@@ -156,7 +156,6 @@ export const faqData = [
     ),
   },
 ];
-
 
 
 
